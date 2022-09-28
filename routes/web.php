@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('posts/index');
+// });
 
-Route::get('/posts', 'PostController@index');
+Route::get('/', 'PostController@top');
+Route::post('/posts', 'PostController@store');
+Route::get('/top/create', 'PostController@create');
+Route::get('/categories/{category}', 'PostController@show');
+Route::post('/test', 'PostController@test');
