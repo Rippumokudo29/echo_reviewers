@@ -53,7 +53,7 @@
             <br>
             <div class='remarks'>
                 <h2>その他備考：</h2>
-                <textarea name="post[post_comment]" cols="100" rows="5" placeholder="補足情報(診断疾患名)などがあれば記載してください．"></textarea><br>
+                <textarea name="post[post_comment]" cols="80" rows="5" placeholder="補足情報(診断疾患名)などがあれば記載してください．"></textarea><br>
             </div>
             <br>
             <div class='img'>
